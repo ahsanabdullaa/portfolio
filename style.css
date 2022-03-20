@@ -346,12 +346,12 @@ footer ul li{
     }
     .hobby-1,.hobby-2,.hobby-3{
         flex: 100%;
-        margin: 20px 150px;
+        margin: 20px 100px;
     }
 
     .card{
         flex: 100%;
-        margin: 30px 70px;
+        margin: 30px 50px;
     }
 
     .edu{
