@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Hurricane&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h2 class="name">Ahsan Abdullah</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#social">Social</a></li>
+            </ul>
+        </nav>
+        <div class="home" id="home">
+            <div class="avatar">
+                <img src="./images/me.jpeg" alt="my image">
+                <h2 class="name">Ahsan Abdullah</h2>
+            </div>
+            <div class="contact">
+                <h1>Creative Web Developer</h1>
+                <p>I am a talented, ambitious and hardworking individual, with broad skills and experience in wordpress and MERN stack development, social media and leading projects.I work with the team to provide imaginative solutions for our customers.</p>
+                <button id="button"><p>CONTACT ME</p></button>
+            </div>
+        </div>
+        <form class="popup">
+            <div class="popup-content">
+                <p class="close">x</p>
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="name" required>
+                <label for="mail"><b>Email</b></label>
+                <input type="text" placeholder="Enter email" name="mail" required>
+                <button class="button">Submit</button>
+            </div>
+        </form>
+        
+
+        <div class="skills" id="skills">
+            <h1>My Skills</h1>
+            <div class="skill-1 card">
+                    <span class="material-icons md-48">devices</span>
+                <div class="app-developer content">
+                    <h2>App Development</h2>
+                    <p>I can build ios and android apps side by side using flutter platform.</p>
+                </div>
+            </div>
+            <div class="skill-2 card">
+                    <span class="material-icons md-48">desktop_windows</span>
+                <div class="web-developer content">
+                    <h2>Web Development</h2>
+                    <p>I have great experience developing different sites using wordpress and full MERN stack developer.</p>
+                </div>
+            </div>
+            <div class="skill-3 card">
+                    <span class="material-icons md-48">analytics</span>
+                <div class="database-engineer content">
+                    <h2>Database Engineer</h2>
+                    <p>I can create databases using My SQL platform.</p>
+                </div>
+            </div>
+            <div class="skill-4 card">
+                    <span class="material-icons md-48">sports_esports</span>
+                <div class="database-engineer content">
+                    <h2>Game Developer</h2>
+                    <p>I can create 3D and 2D games using unity engine.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hobbies" id="hobbies">
+            <h1>Hobbies</h1>
+            <div class="hobby-1 card">
+                <span class="material-icons md-48">menu_book</span>
+                <h2>Book Reading</h2>
+                <!-- <p>I have great experience developing different sites using wordpress and full MERN stack developer.</p> -->
+            </div>
+            <div class="hobby-2 card">
+                <span class="material-icons md-48">two_wheeler</span>
+                <h2>Travelling</h2>
+                <!-- <p>I can build ios and android apps side by side using flutter platform.</p> -->
+            </div>
+            <div class="hobby-3 card">
+                <span class="material-icons md-48">code</span>
+                <h2>Coding</h2>
+                <!-- <p>I can create databases using My SQL platform.</p> -->
+            </div>
+        </div>
+
+        <div class="education" id="education">
+            <div class="edu-container">
+                <h1>Education</h1>
+                <div class="school edu">
+                    <h2>Allied School</h2>
+                    <ul>
+                        <li>Matriculation</li>
+                        <li>2015 - 2017</li>
+                    </ul>
+                </div>
+                <div class="College edu">
+                    <h2>Punjab College</h2>
+                    <ul>
+                        <li>F.Sc Pre Engineering</li>
+                        <li>2017 - 2019</li>
+                    </ul>
+                </div>
+                <div class="University edu">
+                    <h2>COMSATS University Lahore</h2>
+                    <ul>
+                        <li>BS Software Engineering</li>
+                        <li>2019 - present</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <ul id="social">
+                <li><a href="https://www.facebook.com" target="_blank"><img src="./images/facebook.png" alt="facebook"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="./images/insta.png" alt="instagram"></a></li>
+                <li><a href="https://github.com" target="_blank"><img src="./images/git.png" alt="github"></a></li>
+                <li><a href="hhttps://www.linkedin.com" target="_blank"><img src="./images/linkedin.png" alt="linkedin"></a></li>
+            </ul>
+            <p>&copy;Ahsan Abdullah 2022</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
